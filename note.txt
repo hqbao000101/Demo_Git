@@ -5,6 +5,7 @@ Khi khởi tạo Local Repo thành công sẽ xuất hiện một thư mục ẩ
 Cách kết nối Remote Repo với Local Repo lại với nhau: dùng lệnh git remote add origin kèm url đường dẫn tới source code trên github - remote
 
 Các bước để đẩy code chúng ta lên Remote Repo
+
   B1: Sẽ đẩy các file có sự thay đổi lên staging area, dùng lệnh git add + tên file nếu muốn đẩy từng file, muốn đẩy tất cả thì dùng git add . , để kiểm tra sự thay đổi có thể dùng lệnh git status, muốn đảo ngược việc thêm các file có sự thay đổi lên staging area thì dùng lệnh git reset.
 
   B2: tạo ra commit để ghi chú lại sự thay đổi code, chúng ta dùng lệnh git commit -m "lời nhắn", muốn kiểm tra các commit đang có sẽ dùng lệnh git log
