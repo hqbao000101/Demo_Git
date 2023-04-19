@@ -13,3 +13,9 @@ Các bước để đẩy code chúng ta lên Remote Repo
   B3: Đẩy code từ Local Repo lên Remote Repo để lưu trữ, lần đầu sẽ dùng lệnh git push -u origin + tên nhánh, những lần sau chỉ cần dùng lệnh git push origin
 
 Khi đi làm tham gia một dự án mới, cần lấy source code từ trên remote repo về thì chúng ta sẽ sử dụng lệnh git clone url
+
+Khi đi làm ta muốn test qua một số chức năng mới, nhưng sợ ảnh hưởng tới các đoạn code cũ đang có, ta sẽ commit lại đoạn code đó và thay đổi, nếu sự thay đổi xảy ra lỗi hoặc ta không còn muốn những sự thay đổi đó thì dùng lệnh git stash để trở về đoạn code ta có trong lần commit gần nhất.
+
+Các bước để tạo nhánh:
+
+  B1: Dùng lệnh git branch + tên nhánh, muốn kiểm tra các nhánh đang có ở local ta dùng lệnh git branch, nếu muốn chuyển nhánh sẽ dùng lệnh git checkout + tên nhánh.
