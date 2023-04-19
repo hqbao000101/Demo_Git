@@ -19,3 +19,5 @@ Khi đi làm ta muốn test qua một số chức năng mới, nhưng sợ ảnh
 Các bước để tạo nhánh:
 
   B1: Dùng lệnh git branch + tên nhánh, muốn kiểm tra các nhánh đang có ở local ta dùng lệnh git branch, nếu muốn chuyển nhánh sẽ dùng lệnh git checkout + tên nhánh.
+
+  B2: Sau khi tạo nhánh xong, ta sẽ dùng các lệnh git add . , git commit -m "message", git push -u origin tên nhánh muốn push lên github.
